@@ -1,0 +1,9 @@
+/home/ec2-user/.rbenv/versions/2.2.4/bin/ruby -r ./siteconf20160410-32294-n05pl4.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: `all' に対して行うべき事はありません.
+
+make "DESTDIR=" install

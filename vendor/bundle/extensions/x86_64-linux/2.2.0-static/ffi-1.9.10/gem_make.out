@@ -1,0 +1,44 @@
+/home/ec2-user/.rbenv/versions/2.2.4/bin/ruby -r ./siteconf20160410-32530-sp2qbs.rb extconf.rb
+checking for ffi_call() in -lffi... yes
+checking for ffi_prep_closure()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... yes
+creating extconf.h
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling Call.c
+compiling DynamicLibrary.c
+compiling Function.c
+compiling LongDouble.c
+compiling Struct.c
+compiling FunctionInfo.c
+compiling MappedType.c
+compiling Variadic.c
+compiling DataConverter.c
+compiling Buffer.c
+compiling StructByReference.c
+compiling ArrayType.c
+compiling ffi.c
+compiling Types.c
+compiling MemoryPointer.c
+compiling Thread.c
+compiling AbstractMemory.c
+compiling Pointer.c
+compiling ClosurePool.c
+compiling LastError.c
+compiling Type.c
+compiling MethodHandle.c
+compiling StructLayout.c
+compiling StructByValue.c
+compiling Platform.c
+linking shared-object ffi_c.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20160410-32530-94yvdm
